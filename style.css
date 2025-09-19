@@ -1,0 +1,98 @@
+/* ====== RESET BÁSICO ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====== ESTILO GENERAL ====== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ====== TITULOS ====== */
+h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  color: #34495e;
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+}
+
+/* ====== PÁRRAFOS ====== */
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/* ====== LISTA ====== */
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul li {
+  background: #ecf0f1;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+ul li:hover {
+  background: #d6eaf8;
+  transform: translateX(5px);
+}
+
+/* ====== ENLACES DE CONTACTO ====== */
+a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #1abc9c;
+}
+
+/* ====== ICONOS ====== */
+a i {
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p, ul li {
+    font-size: 0.95rem;
+  }
+}
